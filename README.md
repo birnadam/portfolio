@@ -13,6 +13,6 @@ This portfolio aeshetics are mostly due to a **Bootstrap** template named *Grays
 
 ## What's to come?
 
-- Better summary
 - Different backgrounds
 - More projects
+- Project demos 
