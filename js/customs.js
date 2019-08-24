@@ -49,3 +49,14 @@ $('.wanderlust').click(function () {
   video = '<iframe src="' + $(this).attr('data-video') + '" style="background-color: #FFFFFF" width="100%" height="484px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
   $(this).replaceWith(video);
 });
+
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
