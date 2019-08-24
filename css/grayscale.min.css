@@ -96,29 +96,9 @@ font-family:'Varela Round';font-size:80%;text-transform:uppercase;letter-spacing
 .w3-left, .w3-right, .w3-badge {cursor:pointer}
 .w3-badge {height:13px;width:13px;padding:0}
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    height: 60px;
-    width: 60px;
-    border-color: black;
-    background-size: 100%, 100%;
-    border-radius: 50%;
-    background-image: none;
+.carousel {
+    height: 240px;
 }
-
-.carousel-control-next-icon:after
-{
-    content: '>';
-    font-size: 30px;
-    color: #64a19d;
-}
-
-.carousel-control-prev-icon:after {
-    content: '<';
-    font-size: 30px;
-    color: #64a19d;
-}
-
-.carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {
-    transform: scale(1.20)
+.carousel-item > img {
+    width: 40%;
 }
