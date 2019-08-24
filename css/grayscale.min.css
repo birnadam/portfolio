@@ -100,20 +100,17 @@ font-family:'Varela Round';font-size:80%;text-transform:uppercase;letter-spacing
     height: 240px;
 }
 
-
 @media (min-width:600px){
     .carousel {
-margin-bottom: 35px;
+        margin-bottom: 35px;
     }
-.carousel-item > img {
-    width: 30%;
-
-}
+    .carousel-item > img {
+        width: 30%;
+    }   
 }
 
 @media (max-width:600px){
     .carousel-item > img {
         width: 55%;
-    
     }
 }
