@@ -55,6 +55,11 @@ $('.thessentials').click(function () {
   $(this).replaceWith(video);
 });
 
+$('.vidi').click(function () {
+  video = '<iframe src="' + $(this).attr('data-video') + '"frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
+  $(this).replaceWith(video);
+});
+
 // Carousel logic
 var slideIndex = 1;
 showDivs(slideIndex);
